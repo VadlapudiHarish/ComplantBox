@@ -6881,18 +6881,10 @@ area {
     font-size: 14px;
   }
 }
-<<<<<<< HEAD
-.first-section .first-section-content .demo {
+/* .first-section .first-section-content .demo {
   font-size: 16px;
   line-height: 21px;
-=======
-.first-section .first-section-content .look {
-  color: white;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
->>>>>>> 536bb2e38ead6a9cb26b6d79a14fb16cd69b17ef
-}
+} */
 .first-section .first-section-content .play-btn {
   width: 200px;
   height: 60px;

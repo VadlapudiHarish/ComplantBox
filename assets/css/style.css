@@ -6874,16 +6874,24 @@ area {
   }
 }
 .first-section .first-section-content p {
-  font-size: 25px;
+  font-size: 30px;
 }
 @media (max-width: 320px) {
   .first-section .first-section-content p {
     font-size: 14px;
   }
 }
+<<<<<<< HEAD
 .first-section .first-section-content .demo {
   font-size: 16px;
   line-height: 21px;
+=======
+.first-section .first-section-content .look {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+>>>>>>> 536bb2e38ead6a9cb26b6d79a14fb16cd69b17ef
 }
 .first-section .first-section-content .play-btn {
   width: 200px;
@@ -6895,6 +6903,7 @@ area {
   font-size: 24px;
   line-height: 30px;
   color: #FFFFFF;
+  margin-top: 4rem;
 }
 .first-section .first-section-image {
   height: 100%;
@@ -6902,7 +6911,7 @@ area {
   display: grid;
   position: relative;
 }
-.first-section .first-section-image img {
+.first-section .first-section-image .deskpot {
   width: 550px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -6910,20 +6919,19 @@ area {
   position: relative;
 }
 @media (min-width: 1400px) {
-  .first-section .first-section-image img {
+  .first-section .first-section-image .deskpot {
     width: auto;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
-  .first-section .first-section-image img {
+  .first-section .first-section-image .deskpot {
     display: none;
   }
 }
 
 .into-card {
   color: #f0f0f0;
-  border-radius: 10px;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: normal;
 }
 
@@ -6950,7 +6958,14 @@ area {
   background: #0085FF;
 }
 .second-session p {
-  font-size: 18px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
 }
 .second-session p .first-content {
   font-weight: 500;

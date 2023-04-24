@@ -7203,6 +7203,7 @@ left: -40px;
     height: 125vh;
     background-size: cover;
     background-repeat: no-repeat;
+    // max-width: none!important;
     .first-section-content{
         height: 100%;
         align-items: center;
@@ -7219,14 +7220,22 @@ left: -40px;
             }
         }
         p{
-            font-size: 25px;
+            font-size: 30px;
             @media(max-width:320px){
                 font-size: 14px;
             }
         }
+<<<<<<< HEAD
         .demo{
             font-size: 16px;
             line-height: 21px;
+=======
+        .look{
+            color: white;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+>>>>>>> 536bb2e38ead6a9cb26b6d79a14fb16cd69b17ef
         }
         .play-btn{
             width: 200px;
@@ -7238,6 +7247,8 @@ left: -40px;
             font-size: 24px;
             line-height: 30px;
             color: #FFFFFF;
+            margin-top: 4rem;
+
         }
     }
     .first-section-image{
@@ -7245,7 +7256,7 @@ left: -40px;
         align-items: flex-end;
         display: grid;
         position: relative;
-        img{
+        .deskpot{
             width: 550px;
             object-fit: contain;
             padding-top: 8em;
@@ -7276,8 +7287,7 @@ left: -40px;
 
 .into-card{
     color: #f0f0f0;
-    border-radius: 10px;
-    font-weight: 600;
+   font-weight: 300;
     letter-spacing: normal;
 }
 
@@ -7305,7 +7315,14 @@ left: -40px;
         }
     }
     p{
-        font-size: 18px;
+        font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+width: 80%;
+margin: auto;
         .first-content{
             // color: #5A5050;
             font-weight: 500;

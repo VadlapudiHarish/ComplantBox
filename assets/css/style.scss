@@ -7464,17 +7464,17 @@ Back To Top Button
 }
 
 .top-btn {
-    background-image: linear-gradient(to right, #ff2500, #ff7100);
-    color: $color-white;
-    width: 45px;
-    height: 45px;
+    background: #002e5b;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    box-shadow: 0 0 15px $main-color;
+    box-shadow: #002e5b;
     font-size: 20px;
     display: inline-block;
     text-align: center;
     line-height: 45px;
-    transition: .9s;
+    transition: 0.5s;
 
     &:hover {
         background-image: linear-gradient(to right, #070100e7, #070300bb);
@@ -8475,7 +8475,7 @@ area {
         display: flex;
         background: rgba(245, 245, 245, 1);
         border-radius: 14px;
-        padding: 1rem 0 1rem 0;
+        padding: 1rem 15px 1rem 10px;
         .bulb{
             background: rgba(255, 255, 255, 1);
             height: 100px;
@@ -9904,6 +9904,11 @@ div .dot {
         padding-bottom: 5rem;
     }
   }
+}
+.techno-img{
+    width: 80%;
+    object-fit: fill;
+    height: 60px;
 }
 .footer-bottom{
     background: #4a4f54!important;

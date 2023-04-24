@@ -6258,17 +6258,17 @@ Back To Top Button
 }
 
 .top-btn {
-  background-image: linear-gradient(to right, #ff2500, #ff7100);
+  background: #002e5b;
   color: #ffffff;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 15px #ff3900;
+  box-shadow: #002e5b;
   font-size: 20px;
   display: inline-block;
   text-align: center;
   line-height: 45px;
-  transition: 0.9s;
+  transition: 0.5s;
 }
 .top-btn:hover {
   background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9058823529), rgba(7, 3, 0, 0.7333333333));
@@ -6983,7 +6983,7 @@ area {
   display: flex;
   background: rgb(245, 245, 245);
   border-radius: 14px;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 15px 1rem 10px;
 }
 .second-session .back-ground .bulb {
   background: rgb(255, 255, 255);
@@ -8253,6 +8253,13 @@ div .dot {
 }
 .slider-section .benfits .key {
   padding-bottom: 5rem;
+}
+
+.techno-img {
+  width: 80%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 60px;
 }
 
 .footer-bottom {

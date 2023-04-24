@@ -8962,9 +8962,6 @@ area {
 }
 
 .global-session {
-  background-image: url("../img/marketbg.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   border-radius: 17px;
   display: -ms-grid;
   display: grid;
@@ -9006,7 +9003,7 @@ area {
 
 .global-session .second-line {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 60px;
 }
 
@@ -9038,7 +9035,7 @@ area {
 
 .global-session .fouth-line {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 60px;
   color: black;
   background-clip: text;
@@ -9070,6 +9067,17 @@ area {
   bottom: calc(100vh - 83vh);
   z-index: -9;
   padding: 50px;
+}
+
+.low-code::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/lowcodecude.svg");
+  z-index: 1;
+  width: 30%;
+  height: 30%;
+  background-repeat: no-repeat;
+  top: 0;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -9146,8 +9154,8 @@ area {
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;
-  color: #189AE3;
-  border-bottom: 2px solid #00C2FF;
+  color: #344060;
+  border-bottom: 2px solid #344060;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
@@ -9162,7 +9170,7 @@ area {
   right: 0;
   bottom: -4px;
   margin: auto;
-  background: #0085FF;
+  background: #344060;
 }
 
 .animate-bg {
@@ -9485,7 +9493,8 @@ div .dot {
 
 .design-card-support {
   height: auto;
-  background: linear-gradient(96.21deg, #6610f2 22.34%, #6f42c1 73.25%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #4D4180), to(#725FC0));
+  background: linear-gradient(#4D4180 100%, #725FC0 100%);
   -webkit-box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
           box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
   border-radius: 33px;
@@ -9551,5 +9560,139 @@ div .dot {
   padding-bottom: 0px !important;
   letter-spacing: .3px;
   font-size: 16px;
+}
+
+.tem-model {
+  background: #ffff;
+  border-radius: 33px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tem-model h5 {
+  font-size: 34px;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0 30px 0;
+}
+
+.tem-model .stay p {
+  color: white;
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model .think h2 {
+  color: #ffff00;
+  font-size: 40px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model .Free-access p {
+  color: white;
+  font-size: 44px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model-header {
+  background: #229CF4;
+  height: 32.31px;
+  border-radius: 32px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+}
+
+.tem-model-header::before {
+  content: 'REGISTER';
+  position: absolute;
+  width: 321px;
+  height: 75px;
+  border-radius: 50px;
+  background: #229CF4;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-filter: drop-shadow(2px 0px 8px #229CF4);
+          filter: drop-shadow(2px 0px 8px #229CF4);
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .tem-model-header::before {
+    width: 165px;
+    height: 45px;
+    font-size: 18px;
+    top: 30px;
+  }
+}
+
+.form-card {
+  background: #F9F9F9;
+  -webkit-box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.24);
+  border-radius: 13px;
+}
+
+.items-seleted-text {
+  background: linear-gradient(90.54deg, #4D7EDE -6.84%, #27AEE8 26.14%, #FF7EF2 64.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.items-seleted-text h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.items-cards-bg {
+  background-image: url("../img/Clip path.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+
+#register {
+  display: none;
+}
+
+.register-card {
+  position: relative;
+}
+
+.register-card .cancel-form-btn {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 0px;
+  background: #FF4D4D;
+  border: 3px solid #FFFFFF;
+  -webkit-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  right: -20px;
+  border-radius: 50%;
+  background-image: url("../img/Vector-x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

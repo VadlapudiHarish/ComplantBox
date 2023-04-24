@@ -444,7 +444,6 @@ Navbar Area
   position: relative;
   -webkit-transition: 0.7s;
   transition: 0.7s;
-  font-weight: 600;
   padding: 10px;
   border-bottom: 1px dashed #ebebeb;
 }
@@ -9668,6 +9667,22 @@ div .dot {
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: bottom;
+}
+
+.items-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #register {

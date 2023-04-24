@@ -8525,9 +8525,7 @@ border-radius: 14px;
     position: relative;
     margin-bottom: 220px;
 
-    .key-text {
-        margin-top: 3rem;
-    }
+    
 
     @media (max-width: 767px) {
         height: auto;
@@ -8757,7 +8755,9 @@ border-radius: 14px;
     background-image: url(../../assets/Complain-img/hero-bg-shape-slider.svg);
     height: auto;
     text-align: center;
-    
+    .key-text {
+        padding: 4rem 0 4rem 0;
+    }
 .accordion {
     width: 80%;
     height: 450px;
@@ -8925,7 +8925,7 @@ border-radius: 14px;
   }
   
   .benfits{
-    margin: 10rem 0 10rem 0;
+    // margin: 10rem 0 10rem 0;
     .key{
         padding-bottom: 5rem;
     }

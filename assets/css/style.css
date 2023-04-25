@@ -131,7 +131,7 @@ img {
 }
 
 .px-60 {
-  padding: 0px 60px;
+  padding: 9px 60px;
 }
 
 .border-radius {
@@ -9395,19 +9395,19 @@ area {
   font-size: 18px;
 }
 
-.second-session-text {
+.second-session-text1 {
   font-weight: 700;
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;
   color: #344060;
-  border-bottom: 2px solid #344060;
+  border-bottom: 2px solid #fff;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
 }
 
-.second-session-text::before {
+.second-session-text1::before {
   content: '';
   width: 55px;
   height: 8px;
@@ -9416,7 +9416,31 @@ area {
   right: 0;
   bottom: -4px;
   margin: auto;
-  background: #344060;
+  background: #fff;
+}
+
+.second-session-text2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #323A56;
+  border-bottom: 2px solid #323A56;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.second-session-text2::before {
+  content: '';
+  width: 55px;
+  height: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  margin: auto;
+  background: #323A56;
 }
 
 .animate-bg {

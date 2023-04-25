@@ -7482,14 +7482,8 @@ area {
   position: relative;
   padding-bottom: 5px;
 }
-<<<<<<< HEAD
-.second-session-text::before {
-  content: "";
-=======
-
 .second-session-text1::before {
-  content: '';
->>>>>>> 53c1f012dc094a78e25672077d97d345f97943c6
+  content: "";
   width: 55px;
   height: 8px;
   position: absolute;
@@ -7511,9 +7505,8 @@ area {
   position: relative;
   padding-bottom: 5px;
 }
-
 .second-session-text2::before {
-  content: '';
+  content: "";
   width: 55px;
   height: 8px;
   position: absolute;
@@ -7920,19 +7913,10 @@ div .dot {
 }
 
 .items-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #register {

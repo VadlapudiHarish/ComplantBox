@@ -7005,6 +7005,7 @@ area {
   background: rgb(245, 245, 245);
   border-radius: 14px;
   padding: 1rem 15px 1rem 10px;
+  align-items: center;
 }
 .second-session .back-ground .bulb {
   background: rgb(255, 255, 255);

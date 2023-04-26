@@ -8338,6 +8338,9 @@ area {
     height: 125vh;
     background-size: cover;
     background-repeat: no-repeat;
+    @media (max-width: 575.98px) { 
+        height: 200vh;
+     }
 
     // max-width: none!important;
     .first-section-content {
@@ -8539,6 +8542,7 @@ area {
         background: rgba(245, 245, 245, 1);
         border-radius: 14px;
         padding: 1rem 15px 1rem 10px;
+        align-items: center;
         .bulb{
             background: rgba(255, 255, 255, 1);
             height: 100px;
@@ -8867,6 +8871,7 @@ area {
           }
           img{
             display: none;
+            border-radius: 12rem 0;
           }
           
         //   &:not(:nth-child(5)) {

@@ -6868,6 +6868,11 @@ area {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (max-width: 575.98px) {
+  .first-section {
+    height: 200vh;
+  }
+}
 .first-section .first-section-content {
   height: 100%;
   align-items: center;
@@ -7005,6 +7010,7 @@ area {
   background: rgb(245, 245, 245);
   border-radius: 14px;
   padding: 1rem 15px 1rem 10px;
+  align-items: center;
 }
 .second-session .back-ground .bulb {
   background: rgb(255, 255, 255);
@@ -7287,6 +7293,7 @@ area {
 }
 .slider-section .container .card img {
   display: none;
+  border-radius: 12rem 0;
 }
 
 .card-align {

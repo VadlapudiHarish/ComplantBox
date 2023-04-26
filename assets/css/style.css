@@ -7264,6 +7264,8 @@ area {
 }
 .slider-section .container .card:hover .text {
   display: block;
+  height: 50%;
+  padding-bottom: 13rem;
 }
 .slider-section .container .card:hover .card__head {
   text-align: center;

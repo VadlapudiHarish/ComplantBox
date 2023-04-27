@@ -8550,6 +8550,10 @@ area {
         border-radius: 14px;
         padding: 1rem 15px 1rem 10px;
         align-items: center;
+        @media(max-width:991px){
+            display: block;
+           
+         }
         .bulb{
             background: rgba(255, 255, 255, 1);
             height: 100px;
@@ -8557,6 +8561,10 @@ area {
             left: 178px;
             top: 1206.8814697265625px;
             border-radius: 14px;
+            @media(max-width:991px){
+               margin: auto;
+              
+            }
         }
         .text{
             width: 100%;
@@ -8851,7 +8859,7 @@ area {
                 border-radius: 0rem 2rem;
             }
             img {
-              filter: grayscale(0);
+            //   filter: grayscale(0);
               border-radius: 0 2rem;
             }
             .text{
@@ -8880,7 +8888,7 @@ area {
                 height: 100%;
                 object-fit: cover;
                 transition: all 1s ease-in-out;
-                filter: grayscale(100%);
+                // filter: grayscale(100%);
               }
           }
           img{
@@ -9614,7 +9622,11 @@ div .dot {
     background-image: url(../../assets/Complain-img/hero-bg-shape-slider.svg);
     height: auto;
     text-align: center;
-    
+    @media(max-width:991px){
+        background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0em 0em 9em 0em
+    }
 .accordion {
     width: 80%;
     height: 450px;

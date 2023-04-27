@@ -6666,7 +6666,6 @@ Buy Now Btn
   }
 }
 .star {
-  animation: mymove 5s infinite;
   filter: drop-shadow(2px 11px 6px black);
 }
 
@@ -7272,8 +7271,12 @@ area {
 .slider-section .container .card:hover {
   flex-grow: 10;
 }
+.slider-section .container .card:hover .card {
+  border-radius: 0rem 2rem;
+}
 .slider-section .container .card:hover img {
   filter: grayscale(0);
+  border-radius: 0 2rem;
 }
 .slider-section .container .card:hover .text {
   display: block;
@@ -7304,7 +7307,6 @@ area {
 }
 .slider-section .container .card img {
   display: none;
-  border-radius: 12rem 0;
 }
 
 .card-align {

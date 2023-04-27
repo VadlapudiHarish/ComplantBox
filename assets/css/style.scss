@@ -8122,7 +8122,7 @@ Buy Now Btn
     }
 }
 .star{
-    animation: mymove 5s infinite;
+    // animation: mymove 5s infinite;
     filter: drop-shadow(2px 11px 6px black);
 
 }
@@ -8847,8 +8847,12 @@ area {
       
           &:hover {
             flex-grow: 10;
+            .card{
+                border-radius: 0rem 2rem;
+            }
             img {
               filter: grayscale(0);
+              border-radius: 0 2rem;
             }
             .text{
                 display: block;
@@ -8869,6 +8873,7 @@ area {
               width: 100%;
               
             }
+            
             img {
                 display: block;
                 width: 100%;
@@ -8880,7 +8885,7 @@ area {
           }
           img{
             display: none;
-            border-radius: 12rem 0;
+            
           }
           
         //   &:not(:nth-child(5)) {
